@@ -92,7 +92,6 @@ class User {
         return false;
     }
 
-
     public function login($username, $password) {
         $stmt = $this->db->prepare("SELECT id, password, isAdmin FROM user WHERE username = ?");
         $stmt->bind_param("s", $username);

@@ -77,7 +77,6 @@ if (isset($_GET['apicall'])) {
             break;
 
 
-
         // The LOGIN operation
         case 'login':
             // First, check the parameters required for this request are available or not
